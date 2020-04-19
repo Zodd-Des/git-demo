@@ -1,0 +1,172 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible"content="IE-edge">
+            <meta name="viewport"content="width=device-width ,initial-scale=1">
+            <title>Complete Bootstrap</title>
+            <link rel="stylesheet" type="text/css"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css"href="css/bootstrap.css">
+            <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type="text/css">
+            <style type="text/css">
+            body{
+                font-size:62.5%;
+                font-family: arial, sans-serif;
+            }
+            #Logo{
+                height: 100px;
+                width: 100px;
+            }
+            #websiteTitle{
+                font-size: 10em;
+                vertical-align: middle;
+                font-family: 'Pacifico',cursive;
+                padding-left: 15px;
+                color:#191970;
+            }
+            #websiteSlogan{
+                font-size: 5.4em;
+            }
+
+            /*----Carousel Styling----*/
+            .slide1{
+                background-image: url('lebron.jpg');
+                height:500px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .slide2{
+                background-image: url('harden.jpg');
+                height:500px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .slide3{
+                background-image: url('mj.jpg');
+                height:500px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .carousel-caption h1{
+                font-size: 5.4em;
+                font-family: 'Pacifico',cursive;
+                padding-bottom: .4em;
+            }
+            .carousel-caption p{
+                font-size: 2em;
+
+            }
+            
+            </style>
+        </head>
+        <body>    
+       
+
+            <!--Carousel-->
+
+
+            <div class="container">
+                <div class="jumbotron">
+                    <img src="nike.jpg" id="Logo" alt="Zodd Logo">
+                    <span id="websiteTitle">The Best Basket Ballers</span>
+                    <p id="websiteSlogan">The best of the best according to Dess</p>
+                </div>
+            </div>
+
+            <div id="theCarousel" class="carousel slide"data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#theCarousel" data-slide-to="slide1" class="active"></li>
+                    <li data-target="#theCarousel" data-slide-to="slide2"></li>
+                    <li data-target="#theCarousel" data-slide-to="slide3"></li>
+                </ol>
+            
+                <div class="carousel-inner">
+                <div class="item active">
+                    <div class="slide1">
+                        <div class="carousel-caption">
+                            <h1>Lebron James</h1>
+                            <p>Los Angeles Lakers</p>
+                            <p><a href="#" class="btn btn-danger btn-md">See Lebron Stats</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="slide2">
+                        <div class="carousel-caption">
+                            <h1>James Harden</h1>
+                            <p>Toronto Raptors</p>
+                            <p><a href="#" class="btn btn-danger btn-md">See Harden Stats</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slide3">
+                        <div class="carousel-caption">
+                            <h1>Michael Jordan</h1>
+                            <p>Chicago Bulls- Hall of Famer</p>
+                            <p><a href="#" class="btn btn-danger btn-md">See MJ Stats</a></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                    <a class="left carousel-control"href="#theCarousel"data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right carousel-control"href="#theCarousel"data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    
+            </div>
+
+            <br />
+
+            <div class="container-fluid">
+                <button class="btn btn-danger"><a href="basketball.html">Best Basket Ballers</a></button>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrap.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        </body>
+    </html>
